@@ -36,7 +36,7 @@ class ProductosActivity : AppCompatActivity() {
     private class AdaptadorProductos: BaseAdapter {
         var productos=ArrayList<Product>()
         var contexto: Context?=null
-        constructor(contexto: Context, producto: ArrayList<Product>){
+        constructor(contexto: Context, productos: ArrayList<Product>){
             this.productos=productos
             this.contexto=contexto
         }
